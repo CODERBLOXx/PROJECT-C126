@@ -1,0 +1,58 @@
+.heading {
+    font-family: 'Creepster',cursive;
+    font-style: italic;
+    color: red;
+    background-color: blue;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+    font-size: 30px;
+    margin: 15px;
+}
+
+.heading:hover {
+    transition: 1500ms;
+    color: lime;
+}
+
+.note {
+    font-family: 'Creepster',cursive;
+    font-style: italic;
+    color: blue;
+    background-color: red;
+    box-shadow: 5px 5px 5px black;
+    font-size: 23px;
+    margin: 15px;
+}
+
+.note:hover {
+    transition: 1500ms;
+    background-color: yellow;
+}
+
+.song_name {
+    width: 130px;
+    font-size: 30px;
+    margin-bottom: 50px;
+    font-family: 'Creepster',cursive;
+    font-style: italic;
+    color: red;
+    background-color: lime;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+}
+
+.song_name:hover {
+    transition: 1500ms;
+    background-color: cyan;
+    color: blue;
+}
+
+body {
+    background-size: cover;
+}
+
+canvas {
+    border: 5px solid cyan;
+    border-radius: 10px;
+    margin-top: 200px;
+}
